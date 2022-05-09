@@ -1,0 +1,31 @@
+
+h1{
+    background-color: $colorbg;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    width: $widthh1;
+}
+main div{
+    display: $dpf;
+    justify-content: $jcc;
+    margin-top: $mgtop;
+    background-color: $colorbg;
+}
+section p{
+    background-color:$nvbg ;
+    width: $nvwd;
+    height: $sheight;
+    margin: $mgn;
+}
+
+//variables
+$mgn:200px;
+$colorbg: salmon;
+$dpf: display flex; 
+$widthh1:600px;
+$jcc: center;
+$mgtop: 20px;
+$nvwd:500px;
+$nvbg:blue;
+$sheight:500px;
